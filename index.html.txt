@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Portfolio Website</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero">
+              <h1><span>CS</span>shad <span>C</span>LI</h1>
+            </a>
+          </div>
+          <div class="nav-list">
+            <div class="hamburger">
+              <div class="bar"></div>
+            </div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Service">Skills</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Header -->
+
+    <!-- Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Name is <span></span></h1>
+          <h1>Chirayush Singh<span></span></h1>
+
+          <a href="#projects" type="button" class="cta">Software Developer</a>
+        </div>
+      </div>
+    </section>
+    <!-- End Hero Section  -->
+
+    <!-- Service Section -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title"><b>S<span>Ki</span>lls</b></h1>
+          <p>
+            <b
+              >PROGRAMMING LANGUAGE : C++,JAVA,JavaScript
+              <br />
+              DATA STRUCTURE & ALGORITHM
+              <br />
+              OOPS CONCEPT
+              <br />
+              OPERATING SYSTEM & COMPUTER NETWORK</b
+            >
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>HTML</h2>
+            <p>
+              It (Hyper Text Markup Language) is the standard markup language
+              for creating Web pages.It describes the structure of a Web page
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>CSS</h2>
+            <p>
+              CSS is the language we use to style an HTML document.CSS describes
+              how HTML elements should be displayed
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>JAVA SCRIPT</h2>
+            <p>
+              JavaScript is a scripting or programming language that allows you
+              to implement complex features on web pages
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/services.png"
+              />
+            </div>
+            <h2>MYSQL</h2>
+            <p>
+              MySQL has also become the database of choice for many of the most
+              successful open source applications
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Service Section -->
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 1</h1>
+              <p>
+                When words become unclear,i'll focus on photographs.An important
+                part of being happy and fulfilled in life is to be able to
+                appreciate the beauty of nature, and these nature quotes will
+                help you do that.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/img-2.png.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 2</h1>
+              <p>
+                In our daily life ,we often forget our some important tasks. In
+                that situation we need a TODO list where we mention our all
+                important tasks.
+              </p>
+            </div>
+            <div class="project-img">
+              <img src="./img/img-4.jpg" alt="img" />
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 3</h1>
+              <h2><b>Ecommerce Site</b></h2>
+              <p>
+                I try to create a Ecommerce site where any user come and choose products,add to cards products, buy products.
+              </p>
+            </div>
+            <div class="project-img">
+            </div>
+          </div>
+
+          <div class="project-item">
+            <div class="project-info">
+              <h1>Project 4</h1>
+              <p>
+                I try to clone Swiggy webpage (only frontend) using HTML, CSS.I just try to give just new look of Swiggy Webpage.
+              </p>
+            </div>
+            <div class="project-img">
+            </div>
+          </div>
+
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects Section -->
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title">About <span>me</span></h1>
+          <h2><b>Software Developer</b></h2>
+          <p>
+            I'm a student of B.tech computer science final year. I am interested in Web Devlopment & problem solving.I am looking forward for great carrier opportunities in a reputed company.Here i drop my CV where i mentioned my skills, education,and my all projects with their link.So please visit my CV page to know better of me.  
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact container">
+        <div>
+          <h1 class="section-title">Contact <span>info</span></h1>
+        </div>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/bubbles/100/000000/phone.png" />
+            </div>
+            <div class="contact-info">
+              <h1>Phone</h1>
+              <h2>+916388804363</h2>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/new-post.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Email</h1>
+              <h2><a href="mailto:chirayush07@gmail.com" target=blank class="mail">chirayush07@gmail.com</a></h2>
+
+
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icon">
+              <img
+                src="https://img.icons8.com/bubbles/100/000000/map-marker.png"
+              />
+            </div>
+            <div class="contact-info">
+              <h1>Address</h1>
+              <h2>Lucnow,226010</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Footer -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>C</span>hirayush <span>A</span>li</h1>
+        </div>
+        <h2>My Complete Profiles</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="http://wa.me/+916388804363" target=blank
+              ><img width="50" height="50" src="https://img.icons8.com/bubbles/50/whatsapp.png" alt="whatsapp"/></a>
+
+            </a>
+
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/invites/contact/?i=6io0va6ra4tu&utm_content=2quig31" target=blank
+              ><img
+                src="https://img.icons8.com/bubbles/100/000000/instagram-new.png"
+            /></a>
+          </div>
+
+          <div class="social-item">
+            <a href="https://https://github.com/chirayushsingh07" target=blank
+              ><img width="50" height="50" src="https://img.icons8.com/bubbles/50/github.png" alt="github"/></a>
+          </div>
+
+          <div class="social-item">
+           <a href="https://https://www.linkedin.com/in/chirayush-singh-8898b7164/" target=blank
+              ><img width="50" height="50" src="https://img.icons8.com/bubbles/50/linkedin.png" alt="linkedin"/></a> 
+
+          </div>
+          
+        </div>
+        <p>Copyright © 2023 Chirayush. All rights reserved.</p>
+      </div>
+    </section>
+    <!-- End Footer -->
+    <script src="./app.js"></script>
+  </body>
+</html>
